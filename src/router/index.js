@@ -17,7 +17,7 @@ const router = createRouter({
     {
       path: '/nova-rota',
       name: 'about',
-      component: () => import('../views/NovaView.vue')
+      component: () => import('../views/UmaView.vue')
     }
   ]
 })

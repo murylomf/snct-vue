@@ -1,15 +1,16 @@
 <template>
-  <h1>Teste de rota</h1>
+  <div>{{ el }}</div>
+  <div>{{ num }}</div>
+  <button @click="num++">my button</button>
 </template>
 
-<style>
-
-</style>
+<style></style>
 
 <script setup>
 import { ref, onMounted, onBeforeMount } from 'vue'
 
-const el = ref()
+const el = ref('mu')
+const num = ref(0)
 
 // onMounted(() => {
 //   console.log('Mounted')
